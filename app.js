@@ -38,7 +38,7 @@ function pesquisar() {
                 <p class="descricao-meta"><h3>Principais sinais e sintomas:</h3> ${dado.sintomas}</p>
                 <p class="descricao-meta"><h3>Incubação:</h3> ${dado.periodoIncubacao}</p>
 
-                <p class="descricao-meta"><h3>Sazonalidade:</h3> ${dado.szonalidade}</p>
+                <p class="descricao-meta"><h3>Sazonalidade:</h3> ${dado.sazonalidade}</p>
                 <p class="descricao-meta"><h3>Distribuição Geográfica:</h3> ${dado.distribuicaoGeografica}</p>
                 <p class="descricao-meta"><h3>Principais grupos de risco:</h3> ${dado.gruposRisco}</p>
                 <p class="descricao-meta"><h3>Transmissão:</h3> ${dado.transmissao}</p>
