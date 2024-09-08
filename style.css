@@ -21,12 +21,15 @@ body {
 
 body::before {
     content: "";
+    box-sizing: border-box;
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.226); /* Cor de sobreposição preta com 30% de opacidade */
     z-index: -1; /* Garante que a camada de sobreposição fique atrás do conteúdo */
 }
+
+
 
 
 /* Estiliza os títulos h1 */
@@ -47,17 +50,18 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 48rem;    /* Largura dos inputs */
+    width: 90%;    /* Largura dos inputs */
     border: none;    /* Remove a borda padrão */
     padding: 1rem 2rem;    /* Espaçamento interno */
     border-radius: 1.5rem;    /* Borda arredondada */
     margin-bottom: 0; /* Remove a margem inferior */
     margin-right: 1rem; /* Adiciona um espaço entre o input e o botão */
-    margin-left: 1rem
+    margin-left: 1rem;
     color: #f0f3f0;    /* Cor do texto */
     font-size: 1rem;    /* Tamanho da fonte */
     box-sizing: border-box;    /* Inclui padding e border na largura total */
     background-color: #8fb99777;
+    max-width: 48rem; /* Define um máximo para telas maiores */
 }
 
 input::placeholder {
@@ -88,7 +92,7 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 80rem;    /* Largura máxima da caixa de resultados */
+    width: 90%;    /* Largura máxima da caixa de resultados */
     height: 66vh;    /* Altura máxima da caixa de resultados */
     overflow-y: auto;    /* Adiciona rolagem vertical se necessário */
     flex-direction: column;    /* Alinha os itens na vertical */
@@ -96,6 +100,7 @@ section button:hover {
     padding: 1rem;    /* Espaçamento interno */
     border-radius: 0.6rem;    /* Borda arredondada */
     position: relative; /* Adiciona posicionamento relativo */
+    max-width: 48rem; /* Define um máximo para telas maiores */
 }
 
 /* Estiliza cada item de resultado */
@@ -303,8 +308,9 @@ footer {
     footer {
         font-size: 0.9rem;        /* Tamanho da fonte do rodapé em telas pequenas */
     }
+}
 
-    /* Responsividade para meu celular */
+/* Responsividade para meu celular */
 @media (max-width: 360px) {
 
     h1 {
@@ -333,5 +339,4 @@ footer {
     footer {
         font-size: 0.6rem;        /* Tamanho da fonte do rodapé em telas pequenas */
     }
-}
 }
