@@ -29,7 +29,7 @@ function pesquisar() {
             resultados += `
             <div class="item-resultado">
                 <h2>
-                    <a href="#" target="_blank">Doença: ${dado.nome}</a>
+                    <a href="#" target="_blank">Doença: ${dado.nome}, ${dado.outros}</a>
                 </h2>
                 
                 <p class="descricao-meta"><h3>Agente(s) etiológico(s):</h3> ${dado.agentes}</p>
@@ -50,7 +50,6 @@ function pesquisar() {
                 <p class="descricao-meta"><h3>Tratamento:</h3> ${dado.tratamento}</p>
                 <p class="resistencia-meta"><h3>Resistência a medicamentos:</h3> ${dado.resistencia}</p>
                 <p class="descricao-meta"><h3>Prevenção:</h3> ${dado.prevencao}</p>
-                <p class="descricao-meta"><h3>Outros nomes:</h3> ${dado.outros}</p>
 
 <p><h3>Mais Informações acesse:</h3>
 <ul style="list-style-type: circle; list-style-position: outside;">
