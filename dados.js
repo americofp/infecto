@@ -324,7 +324,7 @@ let dados = [
     },
     {
         nome: "Giardíase",
-        outros: "Lambliase",
+        outros: "Lambliose, lamblíase",
         agentes: "Giardia lamblia (também conhecida como G. intestinalis ou G. duodenalis)",
         tipoAgente: "Protozoário flagelado",
         descricao: "Doença infecciosa causada por um protozoário, afetando principalmente o intestino delgado. Diagnóstico por exame parasitológico de fezes. Possíveis complicações incluem má absorção e desnutrição. Notificação compulsória: (NÃO)",
@@ -476,7 +476,7 @@ let dados = [
     },
     {
         nome: "HIV/AIDS",
-        outros: "Síndrome da Imunodeficiência Adquirida",
+        outros: "Síndrome da Imunodeficiência Adquirida, SIDA",
         agentes: "Vírus da Imunodeficiência Humana (HIV-1 e HIV-2)",
         tipoAgente: "Retrovírus (vírus RNA)",
         descricao: "Doença infecciosa crônica que ataca o sistema imunológico, deixando o indivíduo mais suscetível a infecções oportunistas e certos tipos de câncer. Diagnóstico por testes sorológicos e confirmação por Western blot ou PCR. Notificação compulsória: (SIM)",
@@ -780,7 +780,7 @@ let dados = [
     },
     {
         nome: "Varíola do Macaco",
-        outros: "Monkeypox",
+        outros: "Monkeypox, Mpox",
         agentes: "Vírus da varíola do macaco (gênero Orthopoxvirus)",
         tipoAgente: "Vírus DNA envelopado",
         descricao: "Doença zoonótica viral que causa erupção cutânea e sintomas sistêmicos. Diagnóstico por PCR de material das lesões. Possíveis complicações incluem pneumonite, encefalite e infecções secundárias. Notificação compulsória: (SIM)",
@@ -799,7 +799,7 @@ let dados = [
     },
     {
         nome: "Zika",
-        outros: "Febre Zika",
+        outros: "Febre Zika, Zyka",
         agentes: "Vírus Zika",
         tipoAgente: "Vírus RNA (flavivírus)",
         descricao: "Doença viral transmitida por mosquitos, geralmente leve, mas associada a complicações neurológicas em fetos. Diagnóstico por RT-PCR e sorologia. Possíveis complicações incluem microcefalia em recém-nascidos e síndrome de Guillain-Barré. Notificação compulsória: (SIM)",
@@ -856,7 +856,7 @@ let dados = [
     },
     {
         nome: "Encefalite Japonesa",
-        outros: "Encefalite B japonesa",
+        outros: "Encefalite B",
         agentes: "Vírus da encefalite japonesa",
         tipoAgente: "Vírus RNA (flavivírus)",
         descricao: "Doença viral transmitida por mosquitos que causa inflamação do cérebro. Diagnóstico por sorologia (ELISA) e RT-PCR. Possíveis complicações incluem convulsões, paralisia e morte. Notificação compulsória: (SIM, em alguns países)",
@@ -893,25 +893,6 @@ let dados = [
         resistencia: "Não aplicável (doença viral sem tratamento específico)"
     },
     {
-        nome: "Febre do Nilo Ocidental",
-        outros: "West Nile Fever",
-        agentes: "Vírus do Nilo Ocidental",
-        tipoAgente: "Vírus RNA (flavivírus)",
-        descricao: "Doença viral transmitida por mosquitos, geralmente leve, mas pode causar encefalite grave. Diagnóstico por sorologia (ELISA) e RT-PCR. Possíveis complicações incluem encefalite, meningite e paralisia flácida aguda. Notificação compulsória: (SIM)",
-        periodoIncubacao: "2 - 14 dias",
-        transmissao: "Picada de mosquitos infectados (principalmente Culex)",
-        definitivo: "Humanos e outros vertebrados",
-        intermediario: "Mosquitos Culex",
-        reservatorio: "Aves",
-        sintomas: "Febre, cefaleia, fadiga, dores no corpo, ocasionalmente erupção cutânea e linfadenopatia",
-        tratamento: "Tratamento de suporte (não há tratamento antiviral específico)",
-        prevencao: "Controle de vetores, uso de repelentes, eliminação de criadouros de mosquitos",
-        gruposRisco: "Idosos, pessoas com sistema imunológico comprometido",
-        distribuicaoGeografica: "África, Europa, Oriente Médio, América do Norte e Oeste da Ásia",
-        sazonalidade: "Maior incidência no final do verão e início do outono em climas temperados",
-        resistencia: "Não aplicável (doença viral sem tratamento específico)"
-    },
-    {
         nome: "Febre Tifoide",
         outros: "Tifo abdominal, salmonellose tifoide",
         agentes: "Salmonella enterica sorotipo Typhi",
@@ -929,25 +910,6 @@ let dados = [
         distribuicaoGeografica: "Prevalente em países em desenvolvimento, especialmente no sul da Ásia",
         sazonalidade: "Maior incidência durante estações chuvosas em áreas endêmicas",
         resistencia: "Aumento de cepas resistentes a múltiplos antibióticos"
-    },
-    {
-        nome: "Hantavirose",
-        outros: "Síndrome Pulmonar por Hantavírus",
-        agentes: "Vírus do gênero Hantavirus",
-        tipoAgente: "Vírus RNA (Bunyaviridae)",
-        descricao: "Doença viral transmitida por roedores, que pode causar síndrome pulmonar grave. Diagnóstico por sorologia (ELISA) e RT-PCR. Possíveis complicações incluem insuficiência respiratória e choque cardiogênico. Notificação compulsória: (SIM)",
-        periodoIncubacao: "1 - 5 semanas (média de 2-3 semanas)",
-        transmissao: "Inalação de aerossóis contaminados com excretas de roedores infectados",
-        definitivo: "Humanos e roedores",
-        intermediario: "Não aplicável",
-        reservatorio: "Roedores silvestres",
-        sintomas: "Febre, mialgia, cefaleia, seguidos por tosse, dispneia e edema pulmonar",
-        tratamento: "Tratamento de suporte, oxigenoterapia, manejo cuidadoso de fluidos",
-        prevencao: "Controle de roedores, evitar contato com excretas de roedores",
-        gruposRisco: "Moradores de áreas rurais, trabalhadores agrícolas",
-        distribuicaoGeografica: "Américas, Europa e Ásia",
-        sazonalidade: "Pode variar conforme a região e a dinâmica populacional de roedores",
-        resistencia: "Não aplicável (doença viral sem tratamento específico)"
     },
     {
         nome: "Leptospirose",
@@ -1023,25 +985,6 @@ let dados = [
         gruposRisco: "Moradores de áreas rurais, trabalhadores agrícolas",
         distribuicaoGeografica: "Américas, Europa e Ásia",
         sazonalidade: "Pode variar conforme a região e a dinâmica populacional de roedores",
-        resistencia: "Não aplicável (doença viral sem tratamento específico)"
-    },
-    {
-        nome: "Encefalite Japonesa",
-        outros: "Encefalite B japonesa",
-        agentes: "Vírus da encefalite japonesa",
-        tipoAgente: "Vírus RNA (flavivírus)",
-        descricao: "Doença viral transmitida por mosquitos que causa inflamação do cérebro. Diagnóstico por sorologia (ELISA) e RT-PCR. Possíveis complicações incluem convulsões, paralisia e morte. Notificação compulsória: (SIM, em alguns países)",
-        periodoIncubacao: "5 - 15 dias",
-        transmissao: "Picada de mosquitos infectados (principalmente Culex)",
-        definitivo: "Humanos e outros vertebrados",
-        intermediario: "Mosquitos Culex",
-        reservatorio: "Aves aquáticas, porcos",
-        sintomas: "Febre, cefaleia, vômitos, confusão mental, convulsões, coma",
-        tratamento: "Tratamento de suporte (não há tratamento antiviral específico)",
-        prevencao: "Vacinação, controle de vetores, uso de repelentes",
-        gruposRisco: "Crianças em áreas endêmicas, viajantes para áreas de risco",
-        distribuicaoGeografica: "Sudeste Asiático, subcontinente indiano, partes da Oceania",
-        sazonalidade: "Maior incidência durante e após estações chuvosas",
         resistencia: "Não aplicável (doença viral sem tratamento específico)"
     },
     {
@@ -1712,8 +1655,8 @@ let dados = [
     {
         nome: "Doença de Creutzfeldt-Jakob",
         outros: "DCJ",
-        agentes: "Proteína priônica anormal (PrPSc), prion",
-        tipoAgente: "Proteína priônica",
+        agentes: "Proteína priônica anormal (PrPSc)",
+        tipoAgente: "prion, prião",
         descricao: "Doença neurodegenerativa rara e fatal causada por proteínas priônicas anormais. Diagnóstico por critérios clínicos, EEG, exames de imagem e teste da proteína 14-3-3 no líquor. Confirmação definitiva por biópsia cerebral ou autópsia. Possíveis complicações incluem demência rapidamente progressiva e morte. Notificação compulsória: (SIM)",
         periodoIncubacao: "Varia de meses a décadas, média de 4-5 anos na forma esporádica",
         transmissao: "Esporádica (mais comum), genética, ou iatrogênica (procedimentos médicos contaminados)",
@@ -1732,7 +1675,7 @@ let dados = [
         nome: "Kuru",
         outros: "Doença do riso",
         agentes: "Proteína priônica anormal (PrPSc)",
-        tipoAgente: "Proteína priônica, prion",
+        tipoAgente: "prion, prião",
         descricao: "Doença neurodegenerativa fatal associada ao canibalismo ritual. Atualmente considerada erradicada. Diagnóstico baseado em critérios clínicos e histórico epidemiológico. Confirmação por exame neuropatológico. Notificação compulsória: (SIM, se identificado)",
         periodoIncubacao: "4 - 40 anos, média de 12 anos",
         transmissao: "Ingestão de tecidos cerebrais infectados durante rituais de canibalismo",
@@ -1751,7 +1694,7 @@ let dados = [
         nome: "Insônia Familiar Fatal",
         outros: "IFF",
         agentes: "Proteína priônica anormal (PrPSc) associada a uma mutação genética específica",
-        tipoAgente: "Proteína priônica, prion",
+        tipoAgente: "prion, prião",
         descricao: "Doença genética rara caracterizada por distúrbios progressivos do sono e disfunção autonômica. Diagnóstico por critérios clínicos, estudo do sono, testes genéticos. Confirmação por exame neuropatológico. Notificação compulsória: (SIM)",
         periodoIncubacao: "Variável, geralmente se manifesta na meia-idade",
         transmissao: "Hereditária (autossômica dominante)",
@@ -2092,7 +2035,7 @@ let dados = [
     {
         nome: "Febre Mediterrânea Familiar",
         outros: "FMF",
-        agentes: "Mutação no gene MEFV (não é uma doença infecciosa, mas frequentemente confundida com uma)",
+        agentes: "Mutação no gene MEFV (não é uma doença infecciosa, mas frequentemente é confundida com uma por conta de seus sinais e sintomas)",
         tipoAgente: "Doença genética autossômica recessiva",
         descricao: "Doença autoinflamatória hereditária caracterizada por episódios recorrentes de febre e inflamação das serosas. Diagnóstico clínico e genético. Possíveis complicações incluem amiloidose. Notificação compulsória: (NÃO)",
         periodoIncubacao: "Não aplicável",
@@ -2107,25 +2050,6 @@ let dados = [
         distribuicaoGeografica: "Principalmente região do Mediterrâneo, mas pode ocorrer mundialmente",
         sazonalidade: "Sem padrão sazonal",
         resistencia: "Não aplicável"
-    },
-    {
-        nome: "Doença do Arranhão do Gato",
-        outros: "Linforreticulose benigna de inoculação",
-        agentes: "Bartonella henselae",
-        tipoAgente: "Bactéria gram-negativa",
-        descricao: "Infecção bacteriana geralmente autolimitada, caracterizada por linfadenopatia regional. Diagnóstico clínico, sorológico e por PCR. Possíveis complicações incluem neuroretinite e encefalite. Notificação compulsória: (NÃO)",
-        periodoIncubacao: "3 - 14 dias",
-        transmissao: "Arranhadura ou mordida de gato infectado",
-        definitivo: "Humanos",
-        intermediario: "Não aplicável",
-        reservatorio: "Gatos",
-        sintomas: "Pápula no local da inoculação, linfadenopatia regional, febre",
-        tratamento: "Geralmente autolimitada; azitromicina em casos graves",
-        prevencao: "Evitar arranhões de gatos, lavar feridas causadas por gatos",
-        gruposRisco: "Crianças e jovens adultos com contato frequente com gatos",
-        distribuicaoGeografica: "Mundial",
-        sazonalidade: "Mais comum no outono e inverno",
-        resistencia: "Geralmente sensível aos antibióticos recomendados"
     },
     {
         nome: "Doença de Lyme-like",
@@ -2145,25 +2069,6 @@ let dados = [
         distribuicaoGeografica: "Brasil",
         sazonalidade: "Mais comum na primavera e verão",
         resistencia: "Geralmente sensível aos antibióticos recomendados"
-    },
-    {
-        nome: "Febre Q",
-        outros: "Coxiellose",
-        agentes: "Coxiella burnetii",
-        tipoAgente: "Bactéria intracelular obrigatória",
-        descricao: "Zoonose que pode causar doença aguda ou crônica. Diagnóstico principalmente por sorologia. Possíveis complicações incluem endocardite, hepatite crônica e síndrome de fadiga pós-infecciosa. Notificação compulsória: (SIM, em muitos países)",
-        periodoIncubacao: "2 - 3 semanas",
-        transmissao: "Inalação de aerossóis contaminados, contato com animais infectados ou seus produtos",
-        definitivo: "Humanos e outros mamíferos",
-        intermediario: "Não aplicável",
-        reservatorio: "Principalmente gado, ovelhas e cabras",
-        sintomas: "Febre alta, dor de cabeça, fadiga, pneumonia atípica",
-        tratamento: "Doxiciclina",
-        prevencao: "Medidas de biossegurança no manejo de animais, pasteurização do leite",
-        gruposRisco: "Trabalhadores rurais, veterinários, trabalhadores de abatedouros",
-        distribuicaoGeografica: "Mundial, exceto Nova Zelândia",
-        sazonalidade: "Pode ocorrer ao longo do ano, com picos na primavera",
-        resistencia: "Geralmente sensível à doxiciclina"
     },
     {
         nome: "Doença de Carrión",
@@ -2241,23 +2146,4 @@ let dados = [
         sazonalidade: "Mais comum no verão e início do outono",
         resistencia: "Geralmente sensível aos antibióticos recomendados"
     },
-    {
-        nome: "Doença de Crohn",
-        outros: "Enterite regional",
-        agentes: "Multifatorial (possível componente infeccioso, incluindo Mycobacterium avium paratuberculosis)",
-        tipoAgente: "Desconhecido (possivelmente bactéria)",
-        descricao: "Doença inflamatória intestinal crônica de etiologia complexa. Diagnóstico por endoscopia, histopatologia e exames de imagem. Possíveis complicações incluem obstrução intestinal, fístulas e maior risco de câncer colorretal. Notificação compulsória: (NÃO)",
-        periodoIncubacao: "Não aplicável",
-        transmissao: "Não é considerada transmissível",
-        definitivo: "Humanos",
-        intermediario: "Não aplicável",
-        reservatorio: "Não aplicável",
-        sintomas: "Dor abdominal, diarreia crônica, perda de peso, fadiga, febre",
-        tratamento: "Anti-inflamatórios, imunossupressores, terapia biológica, cirurgia em casos graves",
-        prevencao: "Não há prevenção específica conhecida",
-        gruposRisco: "Pessoas com histórico familiar, fumantes",
-        distribuicaoGeografica: "Mundial, mais comum em países desenvolvidos",
-        sazonalidade: "Sem padrão sazonal",
-        resistencia: "Não aplicável"
-    }
 ];
