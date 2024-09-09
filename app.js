@@ -28,6 +28,14 @@ function pesquisar() {
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
+            
+            <font color="red">
+            <b>
+            Observe que pode haver múltiplas respostas para sua busca, role até o fim para se certificar que viu todos os resultados.
+            </font>
+            </b>
+            
+            <p>
                 <h2>
                     <a href="#" target="_blank">Doença: ${dado.nome}, ${dado.outros}</a>
                 </h2>
@@ -85,6 +93,7 @@ function mostrarAleatorio() {
     section.innerHTML = `
 
       <div class="item-resultado">
+                
                 <h2>
                     <a href="#" target="_blank">Doença: ${doencaSorte.nome}, ${doencaSorte.outros}</a>
                 </h2>
