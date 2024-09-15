@@ -17,14 +17,17 @@ function pesquisar() {
     let nome = ""; 
     let outros = "";
     let agentes = "";
+    let tipoAgente = "";
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) {
         nome = dado.nome.toLowerCase()
         outros = dado.outros.toLowerCase()
         agentes = dado.agentes.toLowerCase()
+        tipoAgente = dado.tipoAgente.toLowerCase()
+
         // se titulo includes campoPesquisa
-        if (nome.includes(campoPesquisa) || outros.includes(campoPesquisa) || agentes.includes(campoPesquisa)) {
+        if (nome.includes(campoPesquisa) || outros.includes(campoPesquisa) || agentes.includes(campoPesquisa) || tipoAgente.includes(campoPesquisa)) {
             // cria um novo elemento
             resultados += `
             <div class="item-resultado">
